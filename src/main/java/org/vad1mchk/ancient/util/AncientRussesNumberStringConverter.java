@@ -1,6 +1,6 @@
-package org.vad1mchk.vserod.util;
+package org.vad1mchk.ancient.util;
 
-import org.vad1mchk.vserod.count.AncientRussesNumber;
+import org.vad1mchk.ancient.count.AncientRussesNumber;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -35,7 +35,7 @@ public class AncientRussesNumberStringConverter implements StringConverter<Ancie
             case 2: {
                 int firstIndex = obj.indices().get(0);
                 int secondIndex = obj.indices().get(1);
-                builder.append(wordForIndex(firstIndex));
+                builder.append(capitalizeFirst(wordForIndex(firstIndex)));
                 builder.append(" да ");
                 builder.append(wordForIndex(secondIndex));
                 break;

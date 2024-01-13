@@ -1,6 +1,5 @@
-package org.vad1mchk.vserod.count;
+package org.vad1mchk.ancient.count;
 
-import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.LinkedList;
 import java.util.List;
